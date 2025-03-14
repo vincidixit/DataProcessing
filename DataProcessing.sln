@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlHandler", "XmlHandler\XmlHandler.csproj", "{4C3F6AE2-D8F2-482D-BB73-9B663A0B0C21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlHandler.Test", "Test\XmlHandler.Test\XmlHandler.Test.csproj", "{A469FE30-9741-45D5-8431-6B5AD3204B4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C3F6AE2-D8F2-482D-BB73-9B663A0B0C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3F6AE2-D8F2-482D-BB73-9B663A0B0C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3F6AE2-D8F2-482D-BB73-9B663A0B0C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3F6AE2-D8F2-482D-BB73-9B663A0B0C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A469FE30-9741-45D5-8431-6B5AD3204B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A469FE30-9741-45D5-8431-6B5AD3204B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A469FE30-9741-45D5-8431-6B5AD3204B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A469FE30-9741-45D5-8431-6B5AD3204B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A469FE30-9741-45D5-8431-6B5AD3204B4E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {614B657B-5C51-4259-8B84-968AEA2286F1}
+	EndGlobalSection
+EndGlobal
